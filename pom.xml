@@ -3,5 +3,40 @@
   <groupId>patch-3</groupId>
   <artifactId>patch-3</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>patch-3</name>
+  <name>patch-3</name> 
+  
+  
+  
+  <dependencies>
+  <dependency>
+  
+  <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>3.141.59</version>
+  
+  </dependency>
+  <dependency>
+  
+  <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.4.0</version>
+    <scope>test</scope>
+  
+  </dependency> 
+  
+  <dependency>
+    <groupId>org.apache.poi</groupId>
+  <artifactId>poi-ooxml</artifactId>
+    <version>4.1.2</version>
+</dependency> 
+
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.3.0</version>
+</dependency>
+
+  
+  
+  </dependencies> 
 </project>
